@@ -15,8 +15,6 @@ conexao.once("open", () => {
 const app = express();
 
 
-
-
 app.get("/fornecedores", (req, res) => {
     res.status(200).json(fornecedores);
 });
