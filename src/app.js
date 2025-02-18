@@ -1,6 +1,6 @@
 import express from "express";
 import connectDataBase from "./config/dbConnect.js";
-import fornecedores from "./models/fornecedores.js";
+import routes from "./Routes/index.js";
 import 'dotenv/config';
 
 
@@ -14,6 +14,6 @@ conexao.once("open", () => {
 });
 
 const app = express();
-
+routes(app);
 
 export default app;
