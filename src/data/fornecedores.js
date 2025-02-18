@@ -1,7 +1,7 @@
 const fornecedores = [
     {
       nome: "Elera Renováveis",
-      logo: "",
+      logo: "https://abrir.link/luzKL",
       estadoOrigem: "São Paulo",
       custoKwh: 0.45,
       limiteMinKwh: 10000,
@@ -10,7 +10,7 @@ const fornecedores = [
     },
     {
       nome: "Raízen Power",
-      logo: "",
+      logo: "https://abrir.link/mlhVG",
       estadoOrigem: "São Paulo",
       custoKwh: 0.50,
       limiteMinKwh: 15000,
@@ -19,7 +19,7 @@ const fornecedores = [
     },
     {
       nome: "Atvos",
-      logo: "",
+      logo: "https://abrir.link/VgZvw",
       estadoOrigem: "São Paulo",
       custoKwh: 0.40,
       limiteMinKwh: 12000,
@@ -28,7 +28,7 @@ const fornecedores = [
     },
     {
       nome: "FazSol",
-      logo: "",
+      logo: "https://abrir.link/jZfSp",
       estadoOrigem: "São Paulo",
       custoKwh: 0.55,
       limiteMinKwh: 8000,
@@ -37,7 +37,7 @@ const fornecedores = [
     },
     {
       nome: "BGEL (Brasil Geração de Energia Limpa)",
-      logo: "",
+      logo: "https://abrir.link/oLZlq",
       estadoOrigem: "São Paulo",
       custoKwh: 0.48,
       limiteMinKwh: 10000,
