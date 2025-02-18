@@ -11,12 +11,7 @@ conexao.once("open", () => {
     console.log("Conexão com o banco feita com sucesso!");
 });
 
-
 const app = express();
 
-
-app.get("/fornecedores", (req, res) => {
-    res.status(200).json(fornecedores);
-});
 
 export default app;
