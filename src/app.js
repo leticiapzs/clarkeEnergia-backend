@@ -1,6 +1,8 @@
 import express from "express";
 import connectDataBase from "./config/dbConnect.js";
 import fornecedores from "./models/fornecedores.js";
+import 'dotenv/config';
+
 
 const conexao = await connectDataBase();
 conexao.on("error", (erro) => {
